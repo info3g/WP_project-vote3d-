@@ -1,0 +1,2 @@
+[01-Jan-2017 13:20:25 America/Denver] PHP Fatal error:  Class 'RTMediaNotification' not found in /home1/votethrd/public_html/wp-content/plugins/buddypress-media/app/helper/RTMediaCommentNotification.php on line 8
+[14-Jan-2017 01:18:48 America/Denver] PHP Fatal error:  Class 'RTMediaNotification' not found in /home1/votethrd/public_html/wp-content/plugins/buddypress-media/app/helper/RTMediaCommentNotification.php on line 8

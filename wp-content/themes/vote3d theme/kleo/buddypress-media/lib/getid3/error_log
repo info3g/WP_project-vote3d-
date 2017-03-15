@@ -1,0 +1,2 @@
+[01-Jan-2017 13:20:17 America/Denver] PHP Fatal error:  Class 'getid3_lib' not found in /home1/votethrd/public_html/wp-content/plugins/buddypress-media/lib/getid3/module.audio.la.php on line 17
+[14-Jan-2017 01:19:01 America/Denver] PHP Fatal error:  Class 'getid3_lib' not found in /home1/votethrd/public_html/wp-content/plugins/buddypress-media/lib/getid3/module.audio.la.php on line 17

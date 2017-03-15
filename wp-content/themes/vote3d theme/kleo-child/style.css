@@ -1,0 +1,270 @@
+/*
+
+Theme Name:     Kleo Child
+
+Theme URI:
+
+Description:    Child theme for Kleo
+
+Author:         SeventhQueen
+
+Author URI:     http://seventhqueen.com
+
+Template:       kleo
+
+Tags:  one-column, two-columns, right-sidebar, fluid-layout, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+
+License: GNU General Public License
+
+License URI: license.txt
+
+*/
+
+
+
+/*
+
+* Please add your custom styles below
+
+*/
+
+
+
+.gallery_left_wrap .sidebar{
+
+	padding-top: 0;
+
+}
+
+.topPicks-other .content-column.one_third{
+
+	padding-right: 15px;
+
+}
+
+.topPicks-other .content-column.one_third + br{
+
+	display: none;
+
+}
+
+#recent-media-tabs .pagination li a {
+
+    color: #a11010;
+
+    display: inline-block;
+
+    width: 100%;
+
+}
+
+
+
+#recent-media-tabs .pagination li {
+
+    border: 1px solid #a11010;
+
+    display: inline-block;
+
+    margin: 0 2px;
+
+    text-align: center;
+
+    width: 25px;
+
+    border-radius: 2px;
+
+    position: relative;
+
+    height: 25px;
+
+    vertical-align: top;
+
+}
+
+#recent-media-tabs .pagination li.next_disable {
+
+    border-color: #ddd;
+
+}
+
+#recent-media-tabs .pagination li:last-child a, #recent-media-tabs .pagination li:last-child {
+
+    font-size: 0;
+
+    position: relative;
+
+    display: inline-block;
+
+}
+
+#recent-media-tabs .pagination li:last-child:after {
+
+    content: '\f105';
+
+    font-family: FontAwesome;
+
+    font-size: 16px;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 10px;
+
+    text-indent: 0;
+
+    color: #a11010;
+
+}
+
+#recent-media-tabs .pagination li.active {
+
+    background: #a11010;
+
+}
+
+#recent-media-tabs .pagination li.active a {
+
+    color: #fff;
+
+}
+
+#recent-media-tabs .pagination li:first-child a {
+
+    position: relative;
+
+    text-indent: -9999px;
+
+    display: inline-block;
+
+}
+
+#recent-media-tabs .pagination li:first-child a:after {
+
+    content: '\f104 ';
+
+    font-family: FontAwesome;
+
+    font-size: 16px;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 10px;
+
+    text-indent: 0;
+
+}
+
+#recent-media-tabs .pagination li:last-child.next_disable:after {
+
+    color: #ddd;
+
+}
+
+/*21-1-17 gs*/
+.wpb_wrapper h4.widget-title {
+  color: #000 !important;
+  font-size: 24px !important;
+  padding: 0 0 5px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+  float: left;
+  width: 100%;
+}
+.wpb_wrapper h4.widget-title::before {
+  background: #000 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+.wpb_wrapper h5.widget__title {
+  color: #000 !important;
+  font-family: "Open Sans";
+  font-size: 18px !important; 
+  font-weight: 700;
+  text-align: center;
+}
+/**/
+
+
+
+@media screen and (max-width: 991px){
+
+	.gallery_left_wrap ul.widget-item-listing{
+
+		text-align: center;
+
+	}
+
+	.gallery_left_wrap ul.widget-item-listing li.rtmedia-list-item{
+
+		float: none;
+
+		display: inline-block;
+
+	}
+
+	.gallery_left_wrap .sidebar .widget{
+
+		margin-bottom: 0;
+
+	}
+
+	.gallery_left_wrap .sidebar{
+
+		padding-bottom: 0;
+
+	}
+
+}
+
+@media screen and (max-width: 600px){
+
+	.pmpro-has-access .content-column img.alignleft{
+
+		float: none;
+
+		display: inline-block;
+
+	}
+
+	.pmpro-has-access .content-column{
+
+		text-align: center;
+
+	}
+
+	.navbar-header .logo{
+
+		max-width: 200px;
+
+	}
+
+	 .sidebar{
+
+	 	padding-top: 0;
+
+	 }
+
+
+
+}
+
+@media screen and (max-width: 480px){
+
+.topPicks-other .content-column.one_third{
+
+	padding-right: 0px;
+
+}
+
+}
